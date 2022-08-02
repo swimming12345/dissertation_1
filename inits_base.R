@@ -1,0 +1,23 @@
+P0_base <- 61623143
+caset0_base <- 0.03*P0_base
+inits_base <-  c(S= 1*(P0_base - caset0_base),
+                 F0=0.2825*caset0_base,
+                 F1=0.2825*caset0_base,
+                 F2=0.184*caset0_base,
+                 F3=0.124*caset0_base,
+                 C1=0.03175*caset0_base,
+                 C2=0.03175*caset0_base,
+                 C3=0.03175*caset0_base,
+                 C4=0.03174*caset0_base,
+                 HCC_A=0,
+                 HCC_B=0,
+                 HCC_C=0,
+                 HCC_D=0,
+                 D=0,
+                 dthC14=0,
+                 dthHCC=0,
+                 C1std_cured=0,
+                 C1new_cured=0,
+                 C2new_cured=0,
+                 C3new_cured=0,
+                 C4new_cured=0)
